@@ -22,7 +22,7 @@ The project is architected to ensure system stability by decoupling the business
 
  iii) Repository Layer: Optimized database interaction using Spring Data JPA.
 
-3) Logic-Driven Automation:-
+2) Logic-Driven Automation:-
 The engine processes payroll based on the following automated logic:
  i) Overtime Pay: Overtime Hours * Hourly Rate
 
@@ -32,7 +32,7 @@ The engine processes payroll based on the following automated logic:
 
  iv) Net Disbursement: Gross Salary - Tax
 
-5) Normalized Database Schema:-
+3) Normalized Database Schema:-
 Built using a manual MySQL approach to ensure data integrity:
  i)employees: Stores fixed salary and rate data.
 
