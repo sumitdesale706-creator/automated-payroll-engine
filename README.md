@@ -1,4 +1,4 @@
-<img width="868" height="183" alt="image" src="https://github.com/user-attachments/assets/a487529d-6386-4578-acc3-bcb70296efa0" />🚀 Automated Payroll Engine
+🚀 Automated Payroll Engine
 A high-performance, logic-driven Spring Boot microservice designed to automate corporate salary disbursements. This project handles dynamic attendance logs and calculates complex payroll components like overtime pay and tax deductions with high accuracy.
 
 Tech Stack :
