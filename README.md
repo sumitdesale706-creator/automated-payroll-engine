@@ -45,6 +45,8 @@ Built using a manual MySQL approach to ensure data integrity:
  ii)salary_slips: Stores processed historical disbursements.
 
 
+
+
 🚀 Getting Started :
 Prerequisites:
 JDK 21, MySQL Server, IntelliJ IDEA
