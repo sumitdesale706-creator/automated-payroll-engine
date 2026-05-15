@@ -15,7 +15,9 @@ Tech Stack :
 
 🏗️ Architecture & Features :
 1) Service-Repository Pattern:-
+
 The project is architected to ensure system stability by decoupling the business logic from the database access layer.
+
  i) Controller Layer: Manages RESTful API endpoints.
 
  ii) Service Layer: Contains the "Engine" logic for tax (10% flat rate) and overtime calculations.
@@ -23,7 +25,9 @@ The project is architected to ensure system stability by decoupling the business
  iii) Repository Layer: Optimized database interaction using Spring Data JPA.
 
 2) Logic-Driven Automation:-
+
 The engine processes payroll based on the following automated logic:
+
  i) Overtime Pay: Overtime Hours * Hourly Rate
 
  ii) Gross Salary: Base Salary + Overtime Pay
@@ -33,7 +37,9 @@ The engine processes payroll based on the following automated logic:
  iv) Net Disbursement: Gross Salary - Tax
 
 3) Normalized Database Schema:-
+
 Built using a manual MySQL approach to ensure data integrity:
+
  i)employees: Stores fixed salary and rate data.
 
  ii)salary_slips: Stores processed historical disbursements.
